@@ -1,0 +1,87 @@
+{
+  "data_stats": {
+    "raw": 7516,
+    "empty_or_placeholder": 20,
+    "duplicates": 62,
+    "conflicting": 8,
+    "kept": 7426
+  },
+  "length_median": 24.0,
+  "length_p95": 60.0,
+  "summary": "                       accuracy         macro_f1        \n                           mean     std     mean     std\nsystem                                                  \nlog-linear + TF-IDF      0.5965  0.0157   0.5937  0.0163\nMLP-1 + TF-IDF           0.5953  0.0126   0.5939  0.0130\nMLP-1 + BoW              0.5951  0.0154   0.5927  0.0146\nMLP-1 + indicator        0.5939  0.0162   0.5911  0.0157\nMLP-2 + BoW              0.5857  0.0154   0.5829  0.0155\nMLP-2 + indicator        0.5851  0.0143   0.5823  0.0146\nMLP-2 + TF-IDF           0.5791  0.0175   0.5760  0.0182\nlog-linear + BoW         0.5766  0.0130   0.5748  0.0129\nlog-linear + indicator   0.5745  0.0156   0.5727  0.0157",
+  "best": "log-linear + TF-IDF",
+  "posterior_pairs": [
+    [
+      "log-linear + TF-IDF",
+      "MLP-1 + TF-IDF"
+    ],
+    [
+      "MLP-1 + TF-IDF",
+      "MLP-2 + TF-IDF"
+    ],
+    [
+      "log-linear + indicator",
+      "log-linear + TF-IDF"
+    ]
+  ],
+  "vocab": " vocab      model   mean    sem\n  1000 log-linear 0.5600 0.0026\n  1000      MLP-1 0.5558 0.0020\n  4000 log-linear 0.5919 0.0032\n  4000      MLP-1 0.5907 0.0027\n  8000 log-linear 0.5965 0.0029\n  8000      MLP-1 0.5953 0.0023\n 16000 log-linear 0.5973 0.0029\n 16000      MLP-1 0.5946 0.0022\n 32000 log-linear 0.5979 0.0027\n 32000      MLP-1 0.5969 0.0024",
+  "top_features": {
+    "joy": [
+      "joy",
+      "happy",
+      "passed",
+      "accepted",
+      "won",
+      "glad"
+    ],
+    "fear": [
+      "fear",
+      "afraid",
+      "night",
+      "scared",
+      "dark",
+      "alone"
+    ],
+    "anger": [
+      "angry",
+      "anger",
+      "me",
+      "unjust",
+      "stolen",
+      "accused"
+    ],
+    "sadness": [
+      "sad",
+      "died",
+      "death",
+      "sadness",
+      "left",
+      "separated"
+    ],
+    "disgust": [
+      "disgusted",
+      "disgust",
+      "saw",
+      "drunk",
+      "smell",
+      "man"
+    ],
+    "shame": [
+      "ashamed",
+      "shame",
+      "i",
+      "caught",
+      "class",
+      "public"
+    ],
+    "guilt": [
+      "guilty",
+      "i",
+      "guilt",
+      "help",
+      "later",
+      "him"
+    ]
+  },
+  "confusion": "          joy  fear  anger  sadness  disgust  shame  guilt\njoy      0.75  0.04   0.06     0.05     0.05   0.03   0.04\nfear     0.04  0.71   0.06     0.04     0.07   0.04   0.04\nanger    0.05  0.06   0.51     0.05     0.14   0.08   0.11\nsadness  0.09  0.06   0.09     0.58     0.06   0.06   0.07\ndisgust  0.04  0.05   0.12     0.04     0.65   0.06   0.05\nshame    0.08  0.07   0.11     0.04     0.11   0.45   0.15\nguilt    0.05  0.06   0.15     0.06     0.07   0.12   0.50"
+}
