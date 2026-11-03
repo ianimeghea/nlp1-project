@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+scikit-learn
+torch
+tokenizers
+datasets
+tabulate
+tqdm
+baycomp
+joblib
