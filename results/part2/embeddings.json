@@ -1,0 +1,666 @@
+{
+ "glove50": {
+  "coverage": {
+   "types": 9385,
+   "type_coverage": 0.8999467234949388,
+   "token_coverage": 0.9937423886569241,
+   "top_missing": [
+    [
+     "examn",
+     28
+    ],
+    [
+     "girl-friend",
+     18
+    ],
+    [
+     "room-mate",
+     15
+    ],
+    [
+     "boy-friend",
+     14
+    ],
+    [
+     "class-mate",
+     13
+    ],
+    [
+     "fianct",
+     12
+    ],
+    [
+     "quarelled",
+     7
+    ],
+    [
+     "class-mates",
+     7
+    ],
+    [
+     "vomitted",
+     6
+    ],
+    [
+     "bus-stop",
+     5
+    ],
+    [
+     "assulted",
+     5
+    ],
+    [
+     "beated",
+     4
+    ],
+    [
+     "n.z",
+     4
+    ],
+    [
+     "catched",
+     4
+    ],
+    [
+     "gottenburg",
+     3
+    ]
+   ]
+  },
+  "neighbours": {
+   "joy": [
+    "sadness",
+    "passion",
+    "sorrow",
+    "delight",
+    "happiness",
+    "grief",
+    "pride",
+    "tears"
+   ],
+   "fear": [
+    "worry",
+    "danger",
+    "fears",
+    "anger",
+    "blame",
+    "fearing",
+    "worried",
+    "threatening"
+   ],
+   "anger": [
+    "frustration",
+    "outrage",
+    "resentment",
+    "fear",
+    "disgust",
+    "stirred",
+    "dismay",
+    "provoked"
+   ],
+   "sadness": [
+    "sorrow",
+    "anguish",
+    "grief",
+    "palpable",
+    "bewilderment",
+    "despair",
+    "astonishment",
+    "joy"
+   ],
+   "disgust": [
+    "disbelief",
+    "frustration",
+    "anger",
+    "dismay",
+    "exasperation",
+    "indignation",
+    "bewilderment",
+    "astonishment"
+   ],
+   "shame": [
+    "pity",
+    "disgrace",
+    "injustice",
+    "utter",
+    "insult",
+    "disgust",
+    "sorrow",
+    "terrible"
+   ],
+   "guilt": [
+    "remorse",
+    "innocence",
+    "betrayal",
+    "truth",
+    "culpability",
+    "confess",
+    "insanity",
+    "contempt"
+   ]
+  },
+  "pairs": {
+   "joy-sadness": 0.804125964641571,
+   "happy-sad": 0.689063310623169,
+   "love-hate": 0.6458605527877808,
+   "shame-guilt": 0.7204769849777222,
+   "anger-disgust": 0.8401376008987427,
+   "fear-joy": 0.4482775330543518
+  },
+  "zero_shot": 0.14489631026124428,
+  "analogy": {
+   "man:doctor::woman:?": [
+    "nurse",
+    "child",
+    "pregnant",
+    "mother",
+    "patient"
+   ],
+   "woman:nurse::man:?": [
+    "doctor",
+    "trained",
+    "officer",
+    "surgeon",
+    "psychiatrist"
+   ]
+  }
+ },
+ "glove100": {
+  "coverage": {
+   "types": 9385,
+   "type_coverage": 0.8999467234949388,
+   "token_coverage": 0.9937423886569241,
+   "top_missing": [
+    [
+     "examn",
+     28
+    ],
+    [
+     "girl-friend",
+     18
+    ],
+    [
+     "room-mate",
+     15
+    ],
+    [
+     "boy-friend",
+     14
+    ],
+    [
+     "class-mate",
+     13
+    ],
+    [
+     "fianct",
+     12
+    ],
+    [
+     "quarelled",
+     7
+    ],
+    [
+     "class-mates",
+     7
+    ],
+    [
+     "vomitted",
+     6
+    ],
+    [
+     "bus-stop",
+     5
+    ],
+    [
+     "assulted",
+     5
+    ],
+    [
+     "beated",
+     4
+    ],
+    [
+     "n.z",
+     4
+    ],
+    [
+     "catched",
+     4
+    ],
+    [
+     "gottenburg",
+     3
+    ]
+   ]
+  },
+  "neighbours": {
+   "joy": [
+    "sadness",
+    "delight",
+    "sorrow",
+    "grief",
+    "happiness",
+    "passion",
+    "tears",
+    "excitement"
+   ],
+   "fear": [
+    "worry",
+    "fears",
+    "fearing",
+    "anger",
+    "danger",
+    "worried",
+    "reason",
+    "threat"
+   ],
+   "anger": [
+    "frustration",
+    "outrage",
+    "resentment",
+    "dismay",
+    "discontent",
+    "fear",
+    "anxiety",
+    "feelings"
+   ],
+   "sadness": [
+    "sorrow",
+    "grief",
+    "anguish",
+    "despair",
+    "astonishment",
+    "dismay",
+    "bewilderment",
+    "regret"
+   ],
+   "disgust": [
+    "dismay",
+    "disbelief",
+    "revulsion",
+    "exasperation",
+    "bewilderment",
+    "anger",
+    "disdain",
+    "astonishment"
+   ],
+   "shame": [
+    "disgrace",
+    "pity",
+    "embarrassment",
+    "sorrow",
+    "sadness",
+    "disgust",
+    "despair",
+    "betrayal"
+   ],
+   "guilt": [
+    "remorse",
+    "innocence",
+    "shame",
+    "feelings",
+    "anguish",
+    "betrayal",
+    "truth",
+    "hatred"
+   ]
+  },
+  "pairs": {
+   "joy-sadness": 0.7273973822593689,
+   "happy-sad": 0.680113673210144,
+   "love-hate": 0.570427417755127,
+   "shame-guilt": 0.6448222398757935,
+   "anger-disgust": 0.7587186098098755,
+   "fear-joy": 0.44042491912841797
+  },
+  "zero_shot": 0.144223000269324,
+  "analogy": {
+   "man:doctor::woman:?": [
+    "nurse",
+    "physician",
+    "doctors",
+    "pregnant",
+    "patient"
+   ],
+   "woman:nurse::man:?": [
+    "doctor",
+    "physician",
+    "officer",
+    "technician",
+    "trained"
+   ]
+  }
+ },
+ "glove300": {
+  "coverage": {
+   "types": 9385,
+   "type_coverage": 0.8999467234949388,
+   "token_coverage": 0.9937423886569241,
+   "top_missing": [
+    [
+     "examn",
+     28
+    ],
+    [
+     "girl-friend",
+     18
+    ],
+    [
+     "room-mate",
+     15
+    ],
+    [
+     "boy-friend",
+     14
+    ],
+    [
+     "class-mate",
+     13
+    ],
+    [
+     "fianct",
+     12
+    ],
+    [
+     "quarelled",
+     7
+    ],
+    [
+     "class-mates",
+     7
+    ],
+    [
+     "vomitted",
+     6
+    ],
+    [
+     "bus-stop",
+     5
+    ],
+    [
+     "assulted",
+     5
+    ],
+    [
+     "beated",
+     4
+    ],
+    [
+     "n.z",
+     4
+    ],
+    [
+     "catched",
+     4
+    ],
+    [
+     "gottenburg",
+     3
+    ]
+   ]
+  },
+  "neighbours": {
+   "joy": [
+    "delight",
+    "sadness",
+    "happiness",
+    "excitement",
+    "sorrow",
+    "joyful",
+    "tears",
+    "grief"
+   ],
+   "fear": [
+    "worry",
+    "fears",
+    "fearing",
+    "afraid",
+    "fearful",
+    "worried",
+    "anger",
+    "feared"
+   ],
+   "anger": [
+    "frustration",
+    "resentment",
+    "outrage",
+    "disgust",
+    "rage",
+    "discontent",
+    "dissatisfaction",
+    "bitterness"
+   ],
+   "sadness": [
+    "sorrow",
+    "grief",
+    "anguish",
+    "despair",
+    "regret",
+    "bewilderment",
+    "disappointment",
+    "dismay"
+   ],
+   "disgust": [
+    "disbelief",
+    "dismay",
+    "exasperation",
+    "anger",
+    "astonishment",
+    "revulsion",
+    "frustration",
+    "bewilderment"
+   ],
+   "shame": [
+    "disgrace",
+    "humiliation",
+    "embarrassment",
+    "sadness",
+    "sorrow",
+    "despair",
+    "pity",
+    "grief"
+   ],
+   "guilt": [
+    "remorse",
+    "innocence",
+    "culpability",
+    "feelings",
+    "grief",
+    "shame",
+    "presumption",
+    "admitting"
+   ]
+  },
+  "pairs": {
+   "joy-sadness": 0.6089545488357544,
+   "happy-sad": 0.5652858018875122,
+   "love-hate": 0.4529624581336975,
+   "shame-guilt": 0.49058955907821655,
+   "anger-disgust": 0.6778886318206787,
+   "fear-joy": 0.33722662925720215
+  },
+  "zero_shot": 0.14597360624831673,
+  "analogy": {
+   "man:doctor::woman:?": [
+    "physician",
+    "nurse",
+    "doctors",
+    "pregnant",
+    "dentist"
+   ],
+   "woman:nurse::man:?": [
+    "nurses",
+    "doctor",
+    "hospital",
+    "physician",
+    "sergeant"
+   ]
+  }
+ },
+ "fasttext300": {
+  "coverage": {
+   "types": 10163,
+   "type_coverage": 0.9389943914198563,
+   "token_coverage": 0.996052974947808,
+   "top_missing": [
+    [
+     "examn",
+     28
+    ],
+    [
+     "o'clock",
+     17
+    ],
+    [
+     "fiancT",
+     12
+    ],
+    [
+     "1/2",
+     8
+    ],
+    [
+     "quarelled",
+     7
+    ],
+    [
+     "Gottenburg",
+     3
+    ],
+    [
+     "shop-assistant",
+     3
+    ],
+    [
+     "rejoyced",
+     3
+    ],
+    [
+     "FUVEST",
+     3
+    ],
+    [
+     "M160",
+     3
+    ],
+    [
+     "M.S.C",
+     3
+    ],
+    [
+     "U.G.C",
+     3
+    ],
+    [
+     "1983/1984",
+     2
+    ],
+    [
+     "absailing",
+     2
+    ],
+    [
+     "gradmother",
+     2
+    ]
+   ]
+  },
+  "neighbours": {
+   "joy": [
+    "delight",
+    "joyful",
+    "joyous",
+    "sadness",
+    "elation",
+    "sorrow",
+    "excitement",
+    "pleasure"
+   ],
+   "fear": [
+    "dread",
+    "fearful",
+    "anxiety",
+    "fears",
+    "fearing",
+    "Fear",
+    "apprehension",
+    "afraid"
+   ],
+   "anger": [
+    "rage",
+    "resentment",
+    "fury",
+    "frustration",
+    "indignation",
+    "hatred",
+    "bitterness",
+    "wrath"
+   ],
+   "sadness": [
+    "sorrow",
+    "grief",
+    "anguish",
+    "joy",
+    "melancholy",
+    "heartbreak",
+    "despair",
+    "unhappiness"
+   ],
+   "disgust": [
+    "revulsion",
+    "distaste",
+    "dismay",
+    "indignation",
+    "disdain",
+    "outrage",
+    "amazement",
+    "exasperation"
+   ],
+   "shame": [
+    "disgrace",
+    "pity",
+    "embarrassment",
+    "Shame",
+    "humiliation",
+    "shameful",
+    "dishonor",
+    "SHAME"
+   ],
+   "guilt": [
+    "Guilt",
+    "culpability",
+    "remorse",
+    "guilty",
+    "innocence",
+    "feelings",
+    "sorrow",
+    "shame"
+   ]
+  },
+  "pairs": {
+   "joy-sadness": 0.7405636310577393,
+   "happy-sad": 0.7016206979751587,
+   "love-hate": 0.7127139568328857,
+   "shame-guilt": 0.6076995730400085,
+   "anger-disgust": 0.7006506323814392,
+   "fear-joy": 0.572249174118042
+  },
+  "zero_shot": 0.2127659574468085,
+  "analogy": {
+   "man:doctor::woman:?": [
+    "physician",
+    "doctors",
+    "nurse",
+    "gynecologist",
+    "pediatrician"
+   ],
+   "woman:nurse::man:?": [
+    "nurses",
+    "Nurse",
+    "medic",
+    "doctor",
+    "nursing"
+   ]
+  }
+ }
+}

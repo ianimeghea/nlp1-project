@@ -11,3 +11,7 @@ tabulate
 tqdm
 baycomp
 joblib
+jax
+numpyro
+arviz
+nltk
